@@ -42,8 +42,8 @@ const MovingImage = ({ title, img, link }) => {
       </h2>
       <FramerImage
         style={{ x: x, y: y }}
-        initial={{opacity:0}}
-        whileInView={{opacity:1, transition: {duration:0.2}}}
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1, transition: { duration: 0.2 } }}
         ref={imgRef}
         src={img}
         alt={title}
@@ -55,10 +55,17 @@ const MovingImage = ({ title, img, link }) => {
 
 const Article = ({ img, title, date, link }) => {
   return (
-    <li className="relative w-full p-4 py-6 my-4 rounded-xl flex items-center justify-between bg-light text-dark first:mt-0 border border-solid border-dark gorder-r-4 border-b-4">
+    <motion.li
+      initial={{ y: 200 }}
+      whileInView={{ y: 0, transition: { duration: 0.75, ease: "easeInOut" } }}
+      viewport={{ once: true }}
+      className="relative w-full p-4 py-6 my-4 rounded-xl flex items-center justify-between bg-motion.ght text-dark first:mt-0 border border-somotion.d border-dark gorder-r-4 border-b-4 dark:border-light dark:bg-dark"
+    >
       <MovingImage title={title} img={img} link={link} />
-      <span className="text-primary font-semibold pl-4 ">{date}</span>
-    </li>
+      <span className="text-primary font-semibold pl-4 dark:text-primaryDark">
+        {date}
+      </span>
+    </motion.li>
   );
 };
 
@@ -98,7 +105,7 @@ const articles = () => {
         <title>BIGWALLPAUL | About Page</title>
         <meta name="description" content="any description" />
       </Head>
-      <main className="2-full mb-16 flex flex-col items-center justify-center overflow-hidden">
+      <main className="2-full mb-16 flex flex-col items-center justify-center overflow-hidden dark:text-light">
         <Layout className="pt-16">
           <AnimatedText
             text="Hello! I am Paul RObertson and this is an article"
