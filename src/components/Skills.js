@@ -9,7 +9,7 @@ const Skill = ({ name, x, y }) => {
       lg:py-2 lg:px-4 md:text-sm md:py-1.5 md:px-3 xs:bg-transparent xs:dark:bg-transparent xs:text-dark xs:dark:text-light xs:text-bold"
       whileHover={{ scale: 1.05 }}
       initial={{ x: 0, y: 0 }}
-      animate={{ x: x, y: y, transition: { duration: 1.5 } }}
+      animate={{ x: x, y: y, transition: { duration: 4.5 } }}
       viewport={{ once: true }}
     >
       {name}

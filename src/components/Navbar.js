@@ -93,12 +93,12 @@ export const Navbar = () => {
           <CustomLink href="/" title="Home" className="mr-4" />
           <CustomLink href="/about" title="About" className="mr-4" />
           <CustomLink href="/projects" title="Projects" className="mr-4" />
-          <CustomLink href="/articles" title="Articles" className="ml-4" />
+          {/* <CustomLink href="/articles" title="Articles" className="ml-4" /> */}
         </nav>
 
         <nav className="flex item-center justify-center flex-wrap">
           <motion.a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/pmrob/"
             target={"_blank"}
             whileHover={{ y: -2 }}
             className="w-6 mx-3"
@@ -157,12 +157,12 @@ export const Navbar = () => {
               className=""
               toggle={handleClick}
             />
-            <CustomMobileLink
+            {/* <CustomMobileLink
               href="/articles"
               title="Articles"
               className=""
               toggle={handleClick}
-            />
+            /> */}
           </nav>
 
           <nav className="flex items-center justify-center flex-wrap mt-2">
