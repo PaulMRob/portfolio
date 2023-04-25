@@ -2,7 +2,7 @@ import Head from "next/head";
 import Link from "next/link";
 import Layout from "@/components/Layout";
 import Image from "next/image";
-import profilePic from "../../public/images/profile/profile-framed.jpg";
+import profilePic from "../../public/images/profile/profile.jpg";
 import AnimatedText from "@/components/AnimatedText";
 import { LinkArrow } from "@/components/Icons";
 import HireMe from "@/components/HireMe";
@@ -33,13 +33,13 @@ export default function Home() {
             </div>
             <div className="w-3/4 flex flex-col items-center self-center ml-10 lg:w-full lg:text-center">
               <AnimatedText
-                text="Something Nice Here"
+                text="Hi, I'm Paul, React Web Developer"
                 className="!text-6xl !text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
               />
               <p className="my-4 text-base font-medium md:text-sm sm:text-xs">
-                As a skilled full-stack developer, I am dedicated to turning
+                As a skilled developer, I am dedicated to turning
                 ideas into innovative web applications. Explore my latest
-                projects and articles, showcasing my expertise in React.js and
+                projects showcasing my expertise in React.js and
                 web development.
               </p>
               <div className="flex items-center self-start mt-2 lg:self-center">
@@ -53,7 +53,7 @@ export default function Home() {
                 </Link>
                 <Link
                   href="mailto:bigwallpaul@gmail.com"
-                  target={"_blank"}
+                  // target={"_blank"}
                   className="ml-4 text-lg font-medium capitalize text-dark underline dark:text-light md:text-base"
                 >
                   Contact

@@ -41,8 +41,8 @@ const Skills = () => {
         <Skill name="Express" x="0vw" y="11.3vw" />
         <Skill name="HTML" x="10vw" y="1vw" />
         <Skill name="Web Design" x="15vw" y="-12vw" />
-        <Skill name="Database" x="24vw" y="-5vw" />
-        <Skill name="Server-Side" x="0vw" y="-20vw" />
+        <Skill name="MongoDB" x="24vw" y="-5vw" />
+        <Skill name="Project Management" x="0vw" y="-20vw" />
         <Skill name="Tailwind CSS" x="-15vw" y="14.8vw" />
         <Skill name="CSS" x="18vw" y="10vw" />
       </div>
