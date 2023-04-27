@@ -49,21 +49,21 @@ const Education = () => {
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
             type={"Full-Stack React Web Development Bootcamp"}
-            time={"Aug 2022- April 2023"}
+            time={"Aug 2022 - Apr 2023"}
             place={"VSchool"}
             info={"The highest rated developer bootcamp from 2021-2023!"}
           />
           <Details
-            type={"Full-Stack React Web Development Bootcamp"}
-            time={"Aug 2022- April 2023"}
-            place={"VSchool"}
-            info={"The highest rated developer bootcamp from 2021-2023!"}
+            type={"Bachelor of Science: Geology"}
+            time={"Jun 2011 - Apr 2016"}
+            place={"Utah Valley Univeristy"}
+            info={"Recipient of 4-year scholarship from National Science Foundation"}
           />
           <Details
-            type={"Full-Stack React Web Development Bootcamp"}
-            time={"Aug 2022- April 2023"}
-            place={"VSchool"}
-            info={"The highest rated developer bootcamp from 2021-2023!"}
+            type={"Web Developer Bootcamp"}
+            time={"Feb 2019 - Spet 2019"}
+            place={"Udemy"}
+            info={"A great introduction into Web Development with Wordpress!"}
           />
         </ul>
       </div>

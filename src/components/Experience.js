@@ -52,54 +52,42 @@ const Experience = () => {
 
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2 ">
           <Details
-            position={"Jr Web Developer"}
-            company={"National Geographic"}
-            companyLink={"www.NationalGeographic.com"}
-            time={"2022-present"}
-            address={"Mountain View, CA"}
+            position={"Freelance Web Developer"}
+            company={"BIGWALLPAUL"}
+            companyLink={"www.paulmrobertson.com"}
+            time={"2020-present"}
+            address={"Salt Lake City, UT"}
             work={
-              "Worked on a team responsible for developing new features for Nat-Geo's search engine, including improving the accuracy and relevance of search results and developing new tools for data analysis and visualization."
+              "Building custom websites for individuals with specific functionality requirements, all in good style ;)"
             }
           />
           <Details
-            position={"Jr Web Developer"}
-            company={"National Geographic"}
-            companyLink={"www.NationalGeographic.com"}
-            time={"2022-present"}
-            address={"Mountain View, CA"}
+            position={"Rock Climbing Personal Trainer"}
+            company={"Momentum Indoor Climbing"}
+            companyLink={"www.momentumindoorclimbing.com"}
+            time={"2016-present"}
+            address={"Salt Lake City, UT"}
             work={
-              "Worked on a team responsible for developing new features for Nat-Geo's search engine, including improving the accuracy and relevance of search results and developing new tools for data analysis and visualization."
+              "Improved indoor and outdoor climbing performance by mentoring more than 100 athletes and teaching proven training methods to increase personal endurance, strength, and abilities."
             }
           />
           <Details
-            position={"Jr Web Developer"}
-            company={"National Geographic"}
-            companyLink={"www.NationalGeographic.com"}
-            time={"2022-present"}
-            address={"Mountain View, CA"}
+            position={"Geologist"}
+            company={"Prolific Mining"}
+            companyLink={""}
+            time={"2017-2018"}
+            address={"Green River, UT"}
             work={
-              "Worked on a team responsible for developing new features for Nat-Geo's search engine, including improving the accuracy and relevance of search results and developing new tools for data analysis and visualization."
+              "As Lead Field Geologist I produced quality field data and reports by mapping and assaying samples to inform decisions on where to drill to find profitable ore."
             }
           />
           <Details
-            position={"Jr Web Developer"}
-            company={"National Geographic"}
-            companyLink={"www.NationalGeographic.com"}
-            time={"2022-present"}
-            address={"Mountain View, CA"}
-            work={
-              "Worked on a team responsible for developing new features for Nat-Geo's search engine, including improving the accuracy and relevance of search results and developing new tools for data analysis and visualization."
-            }
-          />
-          <Details
-            position={"Jr Web Developer"}
-            company={"National Geographic"}
-            companyLink={"www.NationalGeographic.com"}
-            time={"2022-present"}
-            address={"Mountain View, CA"}
-            work={
-              "Worked on a team responsible for developing new features for Nat-Geo's search engine, including improving the accuracy and relevance of search results and developing new tools for data analysis and visualization."
-            }
+            position={"Research Assistant"}
+            company={"Utah Valley University: Department of Earth Science"}
+            companyLink={"www.uvu.edu/earthscience"}
+            time={"2012-2014"}
+            address={"800 W University Parkway Orem, UT 84059"}
+            work={"Designed and implemented methodology for mapping and collecting sediment samples from Utah Lake to be assayed. Constructed model of anthropogenic impacts on wetland ecosystem."}
           />
         </ul>
       </div>
