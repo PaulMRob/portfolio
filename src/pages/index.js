@@ -37,23 +37,22 @@ export default function Home() {
                 className="!text-6xl !text-left xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl"
               />
               <p className="my-4 text-base font-medium md:text-sm sm:text-xs">
-                As a skilled developer, I am dedicated to turning
-                ideas into innovative web applications. Explore my latest
-                projects showcasing my expertise in React.js and
-                web development.
+                As a skilled developer, I am dedicated to turning ideas into
+                innovative web applications. Explore my latest projects
+                showcasing my expertise in React.js and web development.
               </p>
               <div className="flex items-center self-start mt-2 lg:self-center">
                 <Link
                   href="/dummy.pdf"
-                  target={"_blank"}
+                  target={""}
                   className="flex items-center bg-dark text-light p-2.5 px-6 rounded-lg text-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark dark:bg-light dark:text-dark hover:dark:bg-dark hover:dark:text-light hover:dark:border-light md:p-2 md:px-4 md:text-base"
                   download={true}
                 >
                   Resume <LinkArrow className={"w-6 ml-1"} />
                 </Link>
                 <Link
-                  href="mailto:bigwallpaul@gmail.com"
-                  // target={"_blank"}
+                  href="https://www.linkedin.com/in/pmrob/"
+                  target={"https://www.linkedin.com/in/pmrob/"}
                   className="ml-4 text-lg font-medium capitalize text-dark underline dark:text-light md:text-base"
                 >
                   Contact
@@ -62,9 +61,9 @@ export default function Home() {
             </div>
           </div>
         </Layout>
-        
-          <HireMe />
-    
+
+        <HireMe />
+
         <div className="absolute right-8 bottom-0 inline-block w-24 md:hidden">
           <Image src={lightBulb} alt="BIGWALLPAUL" className="w-full h-auto " />
         </div>

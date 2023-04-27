@@ -58,21 +58,22 @@ const about = () => {
               </h2>
               <p className="font-medium">Hi, I&apos;m Paul</p>
               <p className="font-medium my-4">
-                There are few things that satisfy my creativity and 
-                problem-solving abilities like web-development. The 
-                endless possibilities and detail-oriented nature of 
-                coding draw me in daily. 
+                There are few things that satisfy my creativity and
+                problem-solving abilities like web-development. The endless
+                possibilities and detail-oriented nature of coding draw me in
+                daily.
               </p>
               <p className="font-medium ">
-                When not at my desk, you can find me and my two kids at the climbing gym or
-                even up in the mountains around Salt Lake City, exploring amoung the boulders and trees
-                and collecting photos of wildlife.
+                When not at my desk, you can find me and my two kids at the
+                climbing gym or even up in the mountains around Salt Lake City,
+                exploring amoung the boulders and trees and collecting photos of
+                wildlife.
               </p>
               <p className="font-medium my-4">
                 At the end of the day what matters most to me is using my
-                talents and skills to ensure a hopeful future for my
-                family while contributing innovative solutions to humanity's largest 
-                challenges.
+                talents and skills to ensure a hopeful future for my family
+                while contributing innovative solutions to humanity&apos;s
+                largest challenges.
               </p>
             </div>
             <div className="col-span-3 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8 dark:bg-dark dark:border-light xl:col-span-4 md:order-1 md:col-span-8">
