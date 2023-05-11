@@ -52,7 +52,7 @@ export default function Home() {
                 </Link>
                 <Link
                   href="https://www.linkedin.com/in/pmrob/"
-                  target={"https://www.linkedin.com/in/pmrob/"}
+                  target={""}
                   className="ml-4 text-lg font-medium capitalize text-dark underline dark:text-light md:text-base"
                 >
                   Contact

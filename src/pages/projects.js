@@ -5,7 +5,12 @@ import AnimatedText from "@/components/AnimatedText";
 import Link from "next/link";
 import Image from "next/image";
 import { GithubIcon } from "@/components/Icons";
-import project1 from "../../public/images/projects/crypto-screener-cover-image.jpg";
+import project1 from "../../public/images/projects/sunmarketcapture.jpg";
+import project2 from "../../public/images/projects/";
+import project3 from "../../public/images/projects/";
+import project4 from "../../public/images/projects/";
+import project5 from "../../public/images/projects/";
+import project6 from "../../public/images/projects/";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -136,7 +141,7 @@ const projects = () => {
       <main className="w-full mb-16 flex flex-dol items-center justify-center dark:text-light">
         <Layout className="pt-16">
           <AnimatedText
-            text={"Problem-solving trumps knowledge!"}
+            text={"My projects are my passion!"}
             className="mb-16 lg:!text-7xl sm:mb-8 sm:!text-6xl xs:!text-4xl"
           />
 
@@ -144,8 +149,18 @@ const projects = () => {
             {/* Change grid layout based on number of projects */}
             <div className="col-span-12">
               <FeaturedProject
-                title="Book Club Discussion Application"
+                title="Sunrise Online Market"
                 img={project1}
+                summary="A client-to-server application that allows users to signup and login for access to book discussions. Users may post new lines of discussion or participate in existing conversations."
+                link="https://sunriseonlinemarket.onrender.com"
+                github="https://github.com/PaulMRob/sunriseonlinemarket"
+                type="Featured Project"
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                title="Book Club Discussion Application"
+                img={project2}
                 summary="A client-to-server application that allows users to signup and login for access to book discussions. Users may post new lines of discussion or participate in existing conversations."
                 link="/"
                 github="/"
@@ -155,17 +170,7 @@ const projects = () => {
             <div className="col-span-6 sm:col-span-12">
               <Project
                 title="Book Club Discussion Application"
-                img={project1}
-                summary="A client-to-server application that allows users to signup and login for access to book discussions. Users may post new lines of discussion or participate in existing conversations."
-                link="/"
-                github="/"
-                type="Featured Project"
-              />
-            </div>
-            <div className="col-span-6 sm:col-span-12">
-              <Project
-                title="Book Club Discussion Application"
-                img={project1}
+                img={project3}
                 summary="A client-to-server application that allows users to signup and login for access to book discussions. Users may post new lines of discussion or participate in existing conversations."
                 link="/"
                 github="/"
@@ -175,7 +180,7 @@ const projects = () => {
             <div className="col-span-12">
               <FeaturedProject
                 title="Book Club Discussion Application"
-                img={project1}
+                img={project4}
                 summary="A client-to-server application that allows users to signup and login for access to book discussions. Users may post new lines of discussion or participate in existing conversations."
                 link="/"
                 github="/"
@@ -185,7 +190,7 @@ const projects = () => {
             <div className="col-span-6 sm:col-span-12">
               <Project
                 title="Book Club Discussion Application"
-                img={project1}
+                img={project5}
                 summary="A client-to-server application that allows users to signup and login for access to book discussions. Users may post new lines of discussion or participate in existing conversations."
                 link="/"
                 github="/"
@@ -195,7 +200,7 @@ const projects = () => {
             <div className="col-span-6 sm:col-span-12">
               <Project
                 title="Book Club Discussion Application"
-                img={project1}
+                img={project6}
                 summary="A client-to-server application that allows users to signup and login for access to book discussions. Users may post new lines of discussion or participate in existing conversations."
                 link="/"
                 github="/"
