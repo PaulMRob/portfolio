@@ -5,12 +5,7 @@ import AnimatedText from "@/components/AnimatedText";
 import Link from "next/link";
 import Image from "next/image";
 import { GithubIcon } from "@/components/Icons";
-import project1 from "../../public/images/projects/sunmarketcapture.jpg";
-import project2 from "../../public/images/projects/";
-import project3 from "../../public/images/projects/";
-import project4 from "../../public/images/projects/";
-import project5 from "../../public/images/projects/";
-import project6 from "../../public/images/projects/";
+import project1 from "../../public/images/projects/sunmarket.jpg";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -160,7 +155,7 @@ const projects = () => {
             <div className="col-span-6 sm:col-span-12">
               <Project
                 title="Book Club Discussion Application"
-                img={project2}
+                img={project1}
                 summary="A client-to-server application that allows users to signup and login for access to book discussions. Users may post new lines of discussion or participate in existing conversations."
                 link="/"
                 github="/"
@@ -170,7 +165,7 @@ const projects = () => {
             <div className="col-span-6 sm:col-span-12">
               <Project
                 title="Book Club Discussion Application"
-                img={project3}
+                img={project1}
                 summary="A client-to-server application that allows users to signup and login for access to book discussions. Users may post new lines of discussion or participate in existing conversations."
                 link="/"
                 github="/"
@@ -180,7 +175,7 @@ const projects = () => {
             <div className="col-span-12">
               <FeaturedProject
                 title="Book Club Discussion Application"
-                img={project4}
+                img={project1}
                 summary="A client-to-server application that allows users to signup and login for access to book discussions. Users may post new lines of discussion or participate in existing conversations."
                 link="/"
                 github="/"
@@ -190,7 +185,7 @@ const projects = () => {
             <div className="col-span-6 sm:col-span-12">
               <Project
                 title="Book Club Discussion Application"
-                img={project5}
+                img={project1}
                 summary="A client-to-server application that allows users to signup and login for access to book discussions. Users may post new lines of discussion or participate in existing conversations."
                 link="/"
                 github="/"
@@ -200,7 +195,7 @@ const projects = () => {
             <div className="col-span-6 sm:col-span-12">
               <Project
                 title="Book Club Discussion Application"
-                img={project6}
+                img={project1}
                 summary="A client-to-server application that allows users to signup and login for access to book discussions. Users may post new lines of discussion or participate in existing conversations."
                 link="/"
                 github="/"
