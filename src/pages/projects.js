@@ -155,7 +155,7 @@ const projects = () => {
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
-              <Project
+              <FeaturedProject
                 title="Book Club Discussion Application"
                 img={project2}
                 summary="A client-to-server application that allows users to signup and login for access to book discussions. Users may post new lines of discussion or participate in existing conversations."
@@ -165,7 +165,7 @@ const projects = () => {
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
-              <Project
+              <FeaturedProject
                 title="Raj Seithuraju: Academic, Activist, Criminal Justice Advocate and Consultant"
                 img={project3}
                 summary="Raj is a Professor of Criminal Justice at Metro State Univeristy who works tirelessly on behalf of individuals and communities affected by a broken and outdated system."
