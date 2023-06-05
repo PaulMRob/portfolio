@@ -111,7 +111,7 @@ const articles = () => {
   return (
     <>
       <Head>
-        <title>BIGWALLPAUL | About Page</title>
+        <title>BIGWALLPAUL | Articles Page</title>
         <meta name="description" content="any description" />
       </Head>
       <TransitionEffect />

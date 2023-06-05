@@ -6,6 +6,8 @@ import Link from "next/link";
 import Image from "next/image";
 import { GithubIcon } from "@/components/Icons";
 import project1 from "../../public/images/projects/sunmarket.jpg";
+import project2 from "../../public/images/projects/book_club.jpg";
+import project3 from "../../public/images/projects/rajsethuraju.jpg";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
@@ -155,24 +157,24 @@ const projects = () => {
             <div className="col-span-6 sm:col-span-12">
               <Project
                 title="Book Club Discussion Application"
-                img={project1}
+                img={project2}
                 summary="A client-to-server application that allows users to signup and login for access to book discussions. Users may post new lines of discussion or participate in existing conversations."
-                link="/"
-                github="/"
+                link="https://react-bookclub.onrender.com"
+                github="https://github.com/PaulMRob/bookclub-app"
                 type="Featured Project"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
               <Project
-                title="Book Club Discussion Application"
-                img={project1}
-                summary="A client-to-server application that allows users to signup and login for access to book discussions. Users may post new lines of discussion or participate in existing conversations."
-                link="/"
+                title="Raj Seithuraju: Academic, Activist, Criminal Justice Advocate and Consultant"
+                img={project3}
+                summary="Raj is a Professor of Criminal Justice at Metro State Univeristy who works tirelessly on behalf of individuals and communities affected by a broken and outdated system."
+                link="https://www.rajsethuraju.com/"
                 github="/"
                 type="Featured Project"
               />
             </div>
-            <div className="col-span-12">
+            {/* <div className="col-span-12">
               <FeaturedProject
                 title="Book Club Discussion Application"
                 img={project1}
@@ -201,7 +203,7 @@ const projects = () => {
                 github="/"
                 type="Featured Project"
               />
-            </div>
+            </div> */}
           </div>
         </Layout>
       </main>
